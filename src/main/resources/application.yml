@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+  main:
+    banner-mode: off
+  output:
+    ansi:
+      enabled: always
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
