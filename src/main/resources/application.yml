@@ -9,3 +9,13 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
+  jpa:
+    hibernate:
+      ddl-auto: none
+    open-in-view: true
+    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+  datasource:
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    locations:
+      - db/migrations

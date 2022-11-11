@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:{porta_do_container}/microservice_email
+    username: {usuario_container}
+    password: {password_container}
