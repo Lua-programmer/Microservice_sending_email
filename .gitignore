@@ -7,3 +7,4 @@ HELP.md
 mvnw
 mvnw.cmd
 config/db.env
+config/pg.env

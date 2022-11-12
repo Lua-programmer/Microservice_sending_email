@@ -9,3 +9,10 @@ services:
       - ../config/db.env
     ports:
       - "5431:5432"
+  pg:
+    container_name: pgadmin
+    image: dpage/pgadmin4
+    env_file:
+      - ../config/pg.env
+    ports:
+      - "80:80"
