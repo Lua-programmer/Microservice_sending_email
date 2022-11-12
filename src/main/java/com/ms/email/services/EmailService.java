@@ -4,5 +4,5 @@ import com.ms.email.models.EmailModel;
 
 public interface EmailService {
 
-    void sendEmail(EmailModel emailModel);
+    EmailModel sendEmail(EmailModel emailModel);
 }
