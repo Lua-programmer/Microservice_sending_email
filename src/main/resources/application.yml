@@ -28,7 +28,3 @@ spring:
           starttls:
             enable: 'true'
           auth: 'true'
-
-#  rabbitmq:
-#    addresses:
-#    queue:

@@ -6,3 +6,6 @@ spring:
   mail:
     username: ******************@gmail.com
     password: *******************
+#  rabbitmq:
+#    addresses:
+#    queue:
