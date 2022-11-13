@@ -8,7 +8,7 @@ services:
     env_file:
       - ../config/db.env
     ports:
-      - "5432:5432"
+      - "5431:5432"
   pg:
     container_name: pgadmin
     image: dpage/pgadmin4
