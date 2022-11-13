@@ -6,6 +6,7 @@ import com.ms.email.services.impl.EmailImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.BeanUtils;
+import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -15,7 +16,7 @@ public class EmailConsumer {
     private final EmailImpl service;
 
     @RabbitListener(queues = "${spring.rabbitmq.queue}")
-    public void listen(EmailDto email){
+    public void listen(@Payload EmailDto email){
         EmailModel model = new EmailModel();
         BeanUtils.copyProperties(email, model);
         service.sendEmail(model);

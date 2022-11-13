@@ -82,6 +82,10 @@
 <th>2.7.5</th>
 </tr>
 <tr>
+<th>spring-boot-starter-amqp<</th>
+<th>2.7.5</th>
+</tr>
+<tr>
 <th>PostgreSQL JDBC Driver</th>
 <th>42.3.7</th>
 </tr>
