@@ -1,5 +1,5 @@
 CREATE TABLE tb_email (
-    email_id SERIAL PRIMARY KEY NOT NULL,
+    email_id VARCHAR(255) PRIMARY KEY NOT NULL,
     owner_ref VARCHAR(255) NOT NULL,
     email_from VARCHAR(255) NOT NULL,
     email_to VARCHAR(255) NOT NULL,

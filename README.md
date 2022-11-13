@@ -46,11 +46,6 @@
 <tr>
 <th>Plugin no Intellij</th>
 <th>RestFulTool</th>
-</tr>
-<tr>
-<th>Java JDK</th>
-<th>8+</th>
-</tr>
 <tr>
 </table>
 
